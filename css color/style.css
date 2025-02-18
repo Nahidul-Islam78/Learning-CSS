@@ -1,0 +1,19 @@
+/*rgb color*/
+#rgb_color{
+  color: rgb(0,255, 0);
+}
+/*hax color*/
+#hax_color{
+  color: #ff0000;
+}
+/*color name*/
+#name_color{
+  color: aqua;
+}
+/*rgba color*/
+#rgba_color{
+  color: rgb(255,255, 0,0.5);
+}
+#hsl_color{
+  color: hsl(300, 76%, 72%);
+}
