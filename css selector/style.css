@@ -1,0 +1,54 @@
+/*CSS  SELECTOR*/
+
+/*universal selector*/
+*{
+  body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+  }
+}
+/*element selector*/
+h1{
+  font-size: 44px;
+  font-weight: 900;
+  
+}
+/*class selector*/
+.element_color{
+  color:white;
+}
+/*id selector*/
+#first_pera{
+  font-size: 20px;
+}
+/*Descendant Selector*/
+div p{
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+/*Child Selector*/
+div>p{
+  color: aqua;
+}
+
+/*Grouping Selector*/
+h2,h6{
+  color:antiquewhite
+}
+/*pseudo-class selector*/
+blockquote:hover{
+  color:yellow;
+}
+
+/*pseudo-element selector*/
+h1::first-letter{
+  font-size: 80px;
+  color:aqua;
+  font-style: italic;
+}
+/*attribute selector*/
+a[href]{
+  color:aquamarine;
+}
