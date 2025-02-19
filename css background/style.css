@@ -1,0 +1,18 @@
+body{
+  background:url(background.png);
+  background-position: center  top;
+  background-attachment:fixed;
+}
+/*
+div{
+  background-color: #1abc9c;
+  background-image: url(./rokomari_logo.png) ;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+*/
+  /* Shorthand */
+div{
+  background: #1abc9c url(./rokomari_logo.png) center no-repeat; 
+  opacity: 0.7;
+}
