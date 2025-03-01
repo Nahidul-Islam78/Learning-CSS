@@ -1,0 +1,14 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+div{
+  color: #130f40;
+  background-color: #7ed6df;
+  width:15.6%;
+  height: 200px;
+  padding: 1%;
+  margin:1%;
+  border: 1px solid black;
+  float:left;
+}
