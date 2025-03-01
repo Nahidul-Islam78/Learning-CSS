@@ -3,13 +3,24 @@
  margin: 0px;
 }
 .parant{
-  background-color: aqua;
+  text-align: center;
+  color:blue;
+  background-color: black;
   padding-top:50px;
   margin-top: 20px;
   margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
 }
 .child{
+  color: black;
+  text-align: center;
+  background-color: antiquewhite;
   margin-left: 30px;
+  margin-right: 80px;
   margin-top: 10px;
   padding: 10px
+}
+.child:hover{
+  background-color: aquamarine;
 }

@@ -1,0 +1,19 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+div{
+  color: blanchedalmond;
+  background-color: black;
+  height: 200px;
+  width:100%;
+  margin-bottom: 10px;
+}
+#div_1{
+  min-height: 300px;
+}
+#div_2{
+  background-color: blueviolet;
+  max-width: 500px;
+}
