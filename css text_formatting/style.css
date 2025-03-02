@@ -1,0 +1,46 @@
+h1{
+  color:#fed330;
+  background-color: #4b6584;
+  border: 3px solid black;
+  margin-right:300px ;
+  text-align: center;
+  padding: 5px;
+}
+.first_pera{
+  text-align: center;
+  text-align-last: right;
+}
+.secund_pera{
+
+  
+}
+
+#heading{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+.bass_line{
+  vertical-align: baseline;
+}
+.title{
+  letter-spacing: 5px;
+  margin: 0%;
+  text-indent: 100px;
+  color: #E65E63;
+
+}
+div>h2{
+  font-size: 60px;
+  margin: 0%;
+  color:rgb(1,1,1)
+}
+#lest_pera{
+  line-height: 29px;
+  word-spacing: 10px;
+}
+h4{
+  font-size: 50px;
+  text-transform:uppercase;
+  text-shadow:-5px -10px 5px #c8d6e5;
+}
+
