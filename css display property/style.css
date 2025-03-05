@@ -1,0 +1,14 @@
+h1{
+  color:aqua;
+  background-color: black;
+  display:inline-block;
+}
+span{
+  color:aliceblue;
+  background-color:black;
+  display: block;
+}
+h3{
+  background-color: bisque;
+  display: none;
+}
