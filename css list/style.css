@@ -1,0 +1,25 @@
+ul{
+  list-style-type:decimal-leading-zero;
+  list-style-type: lower-roman;
+  list-style-type: lower-greek;
+  list-style-type: georgian;
+  list-style-type:lower-latin;
+  list-style-position: inside;
+  list-style-position: outside;
+  list-style-type: none;
+  background-color: aqua;
+  padding: 20px;
+}
+li{
+  background-color: aquamarine;
+  color:tomato
+}
+img{
+  height: 10px;
+  padding-right:4px;
+}
+
+/*short hands list*/
+#list_2{
+  list-style: square inside url(html5-brands.svg);
+}
