@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #222f3e;
+}
+div{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: #222f3e;
+  color:red;
+  margin: 0;
+  padding: 10px;
+  
+}
+ul{
+  list-style: none;
+  
+}
+li{
+  text-align: center;
+  display: inline;
+  
+}
+a{
+  font-size: 20px;
+  text-decoration: none;
+  margin:5px;
+  padding: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+a:hover{
+  background-color: #c8d6e5;
+}
+a:active{
+  color:#feca57;
+}
+a:link{
+  color:#48dbfb;
+}
+a:focus{
+  background-color:#ff9ff3 ;
+}
+a:visited{
+  color: #ee5253;
+}
+.pera{
+  padding: 10px;
+  height: 100%;
+  margin-top: 0;
+  background-color: #222f3e;
+  color: #48dbfb;
+  font-size: 30px;
+}
+.pera::first-letter{
+  font-size: 100px;
+}
+.pera::selection{
+  color: #ee5253;
+  background-color: #48dbfb;
+}
+
+
