@@ -1,0 +1,120 @@
+.child_service{
+  text-align: center;
+  color:#fff;
+  width: 300px;
+  margin: 25px auto;
+  position: relative;
+  overflow: hidden;
+}
+.child_service img{
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  transition: 0.7s;
+}
+.child_service:hover img{
+  transform: scale(1.2);
+}
+.inner_service{
+  padding:10px 15px;
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  top:  -500px;
+  left: 0;
+  z-index:1;
+  transition: 0.9s;
+}
+.inner_service::after {
+  background: #1b1464;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content:'';
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  z-index: -1;
+ 
+}
+.child_service h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+.child_service a {
+  display: inline-block;
+  margin-top: 15px;
+  background: #f79f1f;
+  color: #fff;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.child_service:hover .inner_service {
+  top: 0;
+}
+.watchItem{
+  text-align: center;
+  width: 300px;
+  margin: 50px auto;
+  position: relative;
+  color: #fff;
+}
+.watchItem img{
+  height: 100%;
+  width: 100%;
+  display: block;
+  transition: 0.8s;
+  
+}
+.watchItem:hover img{
+  transform: scale(1.2);
+}
+.innerWatch{
+  padding: 10px 15px;
+  position:absolute;
+  height: 100%;
+  width: 90%;
+  top:500px;
+  left: 0; 
+  z-index: 1;
+  transition: 0.7s;
+}
+.innerWatch::after{
+  background-color: #1b1464;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: '';
+  top:0;
+  left: 0;
+  opacity: 0.8;
+  z-index: -1;
+}
+.innerWatch h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  margin-bottom: 0px;
+
+}
+.innerWatch p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.innerWatch a{
+ display: inline-block;
+  margin-top: 15px;
+  background: #f79f1f;
+  color: #fff;
+  font-size: 14px;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.watchItem:hover .innerWatch{
+  top: 0;
+  display: block;
+}
